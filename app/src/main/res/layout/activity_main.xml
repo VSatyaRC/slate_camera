@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="@drawable/slate_cam"
+    android:gravity="center"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/button_in_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startCamera"
+        android:background="@color/clear"
+        android:layout_margin="10dp"
+        android:src="@drawable/ggcamera"
+
+/>    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start camera"
+        android:layout_margin="10dp"
+        android:src="@drawable/note_main"
+        android:layout_alignParentBottom="true"/>
+
+
+</LinearLayout>
